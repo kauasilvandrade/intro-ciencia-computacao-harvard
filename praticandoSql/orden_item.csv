@@ -1,0 +1,4 @@
+order_item_id,order_id,product_name,quantity,price
+1,1,Product A,2,10.00
+2,1,Product B,1,20.00
+3,2,Product C,3,50.00

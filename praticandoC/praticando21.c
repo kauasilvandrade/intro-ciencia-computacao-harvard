@@ -1,0 +1,54 @@
+// #include <stdio.h>
+// #include <cs50.h>
+// #include <string.h>
+
+// int main(int argc, string argv[]) {
+    
+//     if (argc == 3) {
+        
+//         for (int i = 0, n = strlen(argv[1]); i < n; i++) {
+            
+//             printf("%c", argv[1][i]);
+            
+//         }
+        
+//         printf(" ");
+        
+//         for (int i = 0, n = strlen(argv[2]); i < n; i++) {
+            
+//             printf("%c", argv[2][i]);
+            
+//         }
+        
+//     }
+    
+    
+// }
+// ----------------------------------------------------------------------------------
+
+#include <stdio.h>
+#include <cs50.h>
+#include <string.h>
+
+int main(int argc, string argv[]) {
+    
+    if (argc == 3) {
+        
+        for (int i = 0, n = strlen(argv[1]); i < n; i++) {
+            
+            printf("%c", argv[1][i]);
+            
+        }
+        
+        printf(" ");
+        
+        for (int i = 0, n = strlen(argv[2]); i < n; i++) {
+            
+            printf("%c", argv[2][i]);
+            
+        }
+        
+    }
+    
+    
+}
